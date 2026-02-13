@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/tengu",
     "maintainers": [
       {
@@ -18,346 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "tengu",
     "name": "Tengu",
-    "aliases": [
-      {
-        "name": "Karasu-tengu",
-        "language": "Japanese",
-        "meaning": "Crow tengu, bird-headed variant"
-      },
-      {
-        "name": "Konoha-tengu",
-        "language": "Japanese",
-        "meaning": "Leaf tengu, humanoid with long nose"
-      },
-      {
-        "name": "Daitengu",
-        "language": "Japanese",
-        "meaning": "Great tengu, powerful variant"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Japanese Supernatural",
+    "subcategory": "Mountain Spirit",
     "tags": [
-      "japanese-folklore",
-      "yokai",
-      "mountain-spirit",
-      "shapeshifter",
-      "martial-arts",
-      "buddhist-demon",
-      "guardian"
+      "and-meaning"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Japanese supernatural creatures depicted as bird-like or humanoid mountain spirits. Originally portrayed as Buddhist demons, later evolved into protective mountain guardians. Masters of martial arts, flight, and shape-shifting.",
-      "full": "Tengu are one of the most iconic creatures in Japanese folklore, supernatural beings that inhabit mountains and forests. They exist in two primary forms: Karasu-tengu (crow-like with bird heads) and Konoha-tengu (humanoid with red faces and distinctive long noses). Originally depicted as malevolent Buddhist demons who led people astray, tengu evolved over centuries into complex figures serving as mountain guardians and martial arts masters. They are known for their pride and arrogance, supernatural powers including flight and shape-shifting, and their role in teaching legendary warriors. Tengu remain deeply embedded in Japanese culture through Shinto shrines, folklore, martial arts mythology, and modern media."
+      "summary": "Tengu are one of the most iconic creatures in Japanese folklore, supernatural beings that inhabit mountains and forests.",
+      "full": "Tengu are one of the most iconic creatures in Japanese folklore, supernatural beings that inhabit mountains and forests. They exist in two primary forms: **Karasu-tengu** (crow-like with bird heads) and **Konoha-tengu** (humanoid with red faces and distinctive long noses). Originally depicted as malevolent Buddhist demons who led people astray, tengu evolved over centuries into complex figures serving as mountain guardians and martial arts masters. They are known for their pride and arrogance, supernatural powers including flight and shape-shifting, and their role in teaching legendary warriors. Tengu remain deeply embedded in Japanese culture through Shinto shrines, folklore, martial arts mythology, and modern media including anime, manga, and video games. > ⚠️ **CULTURAL SENSITIVITY**: Tengu are part of living Japanese religious and cultural traditions. Approach with respect for Shinto and Buddhist contexts."
     },
     "etymology": {
-      "origin": "The term 'tengu' derives from Chinese 'tiangou' (heavenly dog), but the Japanese concept evolved distinctly",
-      "meaning": "Originally 'heavenly dog,' but Japanese depiction shifted to bird-like beings",
-      "first_use": "First mentioned in Nihon Shoki (720 CE)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Yokai",
-      "subtype": "Mountain Spirit",
-      "variant": "Japanese"
+      "type": "Mountain Spirit",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "kitsune",
-        "name": "Kitsune",
-        "relationship": "similar",
-        "description": "Japanese fox spirits, also shapeshifters"
-      },
-      {
-        "id": "oni",
-        "name": "Oni",
-        "relationship": "similar",
-        "description": "Japanese demons/ogres"
-      },
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "similar",
-        "description": "Shapeshifting spirits from Islamic tradition"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "forms": [
-        {
-          "type": "Karasu-tengu",
-          "description": "Crow-like appearance with bird head, wings, and humanoid body",
-          "frequency": "common"
-        },
-        {
-          "type": "Konoha-tengu",
-          "description": "Humanoid form with red face, extremely long nose, often depicted with fan and staff",
-          "frequency": "common"
-        },
-        {
-          "type": "Daitengu",
-          "description": "Powerful humanoid tengu, larger and more formidable",
-          "frequency": "rare"
-        }
-      ],
-      "features": [
-        {
-          "feature": "Red face",
-          "description": "Characteristic red or crimson facial coloration in humanoid forms",
-          "frequency": "always"
-        },
-        {
-          "feature": "Long nose",
-          "description": "Distinctive elongated nose in Konoha-tengu variant",
-          "frequency": "common"
-        },
-        {
-          "feature": "Wings",
-          "description": "Large bird-like wings enabling flight",
-          "frequency": "common"
-        },
-        {
-          "feature": "Traditional clothing",
-          "description": "Often depicted wearing yamabushi (mountain ascetic) robes and carrying fan",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Varies between bird-like and humanoid forms. Humanoid tengu often carry feather fans and staffs. Known for fierce, prideful expressions."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Flight",
-        "description": "Ability to fly through the air, sometimes without visible wings",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Shape-shifting",
-        "description": "Can transform into human or animal forms",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Swordsmanship",
-        "description": "Master martial artists, particularly in sword techniques",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Wind manipulation",
-        "description": "Control over wind and storms using fans",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Telepathy",
-        "description": "Mental communication and mind-reading",
-        "frequency": "occasional",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Abduction",
-        "description": "Kidnapping humans, especially children, to teach or punish",
-        "frequency": "occasional",
-        "evidence_level": "documented"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "day and night",
-      "disposition": "neutral to protective",
-      "social_structure": "hierarchical",
-      "habitat_preference": [
-        "mountains",
-        "deep forests",
-        "sacred trees",
-        "remote temples"
-      ],
-      "temperament": "Proud and arrogant but can be benevolent",
-      "patterns": [
-        "Guard mountain territories",
-        "Test and teach worthy warriors",
-        "Punish arrogance and disrespect",
-        "Play tricks on humans"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Japan, particularly associated with sacred mountains and forest regions",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Mount Kurama (Kyoto)",
-        "Mount Takao (Tokyo)",
-        "Mount Haguro (Yamagata)",
-        "Izu Peninsula",
-        "Sacred mountain regions nationwide"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Mount Kurama",
-        "location": {
-          "description": "Sacred mountain north of Kyoto",
-          "country": "Japan",
-          "region": "Kyoto Prefecture",
-          "coordinates": {
-            "latitude": 35.1206,
-            "longitude": 135.7683
-          }
-        },
-        "significance": "Home of Sōjōbō, the Great Tengu who taught Minamoto no Yoshitsune",
-        "notes": "Most famous tengu location in Japanese folklore"
-      },
-      {
-        "name": "Mount Takao",
-        "location": {
-          "description": "Mountain near Tokyo",
-          "country": "Japan",
-          "region": "Tokyo",
-          "coordinates": {
-            "latitude": 35.6252,
-            "longitude": 139.2444
-          }
-        },
-        "significance": "Active Shinto shrine dedicated to tengu worship",
-        "notes": "Popular pilgrimage site with strong tengu associations"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "720 CE",
-        "circa": false,
-        "source": "Nihon Shoki (Chronicles of Japan)"
-      },
-      "cultural_evolution": "Originally malevolent Buddhist demons (8th-12th century), evolved into protective mountain guardians (13th century onward)",
-      "modern_presence": "Continues in Shinto worship, festivals, martial arts traditions, anime, manga, and video games"
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Derived from Chinese tiangou (heavenly dog) but developed distinctly in Japanese Buddhism and Shinto. Associated with yamabushi mountain ascetics and Buddhist corruption narratives.",
-      "earliest_accounts": "First mentioned in Nihon Shoki (720 CE) as a celestial omen. Evolved through medieval Buddhist tales.",
-      "folklore_connections": "Connected to Buddhist concepts of pride and arrogance as spiritual obstacles, later integrated with Shinto mountain worship."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "720",
-        "event": "First mention in Nihon Shoki",
-        "significance": "Earliest written reference to tengu in Japan",
-        "source": "Nihon Shoki"
-      },
-      {
-        "date": "1159-1185",
-        "event": "Sōjōbō teaches Minamoto no Yoshitsune",
-        "significance": "Famous legend of tengu as martial arts master",
-        "source": "Historical chronicles and folklore"
-      },
-      {
-        "date": "12th-14th century",
-        "event": "Tengu depicted in Buddhist scrolls",
-        "significance": "Visual representation in Tengu-zōshi emaki and other artwork",
-        "source": "Buddhist art and manuscripts"
-      },
-      {
-        "date": "14th century onward",
-        "event": "Evolution from demon to protector",
-        "significance": "Shift in cultural perception from evil to guardian role",
-        "source": "Literature and religious texts"
-      },
-      {
-        "date": "Present",
-        "event": "Modern cultural presence",
-        "significance": "Continues in festivals, shrines, martial arts mythology, anime, manga",
-        "source": "Contemporary culture"
-      }
-    ],
-    "modern_era": "Tengu remain active in Japanese culture through Shinto shrines dedicated to tengu worship, annual festivals, martial arts mythology (particularly in kenjutsu and ninjutsu traditions), and widespread representation in anime, manga, and video games. They serve as symbols of mountain guardianship and martial discipline."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Tengu as martial arts instructors",
-        "Mountain ascetic (yamabushi) associations",
-        "Guardian spirits of sacred mountains",
-        "Punishers of the prideful"
-      ],
-      "stories": [
-        "Sōjōbō teaching Minamoto no Yoshitsune on Mount Kurama",
-        "Tengu abducting children to teach them martial arts",
-        "Tengu testing warriors and monks",
-        "Shape-shifting tengu tricking humans"
-      ],
-      "beliefs": "Tengu embody both danger and wisdom. They punish arrogance but reward humility and dedication. Associated with supernatural martial mastery."
-    },
-    "religious": {
-      "traditions": [
-        "Shinto shrine worship",
-        "Buddhist cautionary tales",
-        "Yamabushi mountain asceticism"
-      ],
-      "significance": "Originally Buddhist demons representing spiritual obstacles (pride, anger). Later integrated into Shinto as mountain kami guardians.",
-      "sensitivity_note": "⚠️ CULTURAL SENSITIVITY: Tengu are part of living Japanese religious and cultural traditions. Approach with respect for Shinto and Buddhist contexts.",
-      "respect_guidelines": "Recognize religious significance in shrine contexts. Do not trivialize or appropriate sacred imagery. Consult Japanese cultural experts for accurate representation."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Konjaku Monogatarishū (12th century tale collection)",
-        "Tengu-zōshi emaki (medieval illustrated scrolls)",
-        "Modern novels featuring tengu characters"
-      ],
-      "film_tv": [
-        "Numerous anime featuring tengu (Naruto, InuYasha, etc.)",
-        "Japanese films and TV dramas",
-        "Video games (Final Fantasy, Nioh, Ōkami)"
-      ],
-      "other": [
-        "Tengu masks used in festivals and theater",
-        "Martial arts school symbolism",
-        "Tourism at tengu-associated mountains"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Yanagita Kunio",
-        "affiliation": "Folklorist",
-        "contribution": "Pioneer of Japanese folklore studies, documented tengu traditions",
-        "period": "Early 20th century"
-      }
-    ],
-    "scholarly_focus": "Academic study focuses on tengu's evolution from Chinese origins, role in Buddhist literature, integration with Shinto mountain worship, and cultural symbolism."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "nihon-shoki-720",
-      "type": "historical text",
-      "title": "Nihon Shoki (Chronicles of Japan)",
-      "date": "720",
-      "description": "First written mention of tengu"
-    },
-    {
-      "id": "konjaku-12th",
-      "type": "literature",
-      "title": "Konjaku Monogatarishū",
-      "date": "12th century",
-      "description": "Medieval tale collection featuring tengu stories"
-    }
-  ]
+  "sources": []
 }
