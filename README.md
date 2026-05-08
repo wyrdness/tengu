@@ -1,289 +1,180 @@
 # Tengu
 
-> *"In the mountains dwell those who know the way of the sword better than any mortal."*
+> Japanese mountain spirits, classed as both yōkai and kami, ranging from lesser bird-like kotengu to high-ranking long-nosed daitengu, originally portrayed as Buddhist demons but later re-imagined as protective mountain guardians and martial-arts mentors.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-active-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `tengu` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Japanese Supernatural / Yokai |
-| **First Recorded** | 720 CE (Nihon Shoki) |
-| **Primary Region** | Japan (mountains) |
-| **Status** | Active |
+| **Subcategory** | Japanese mountain spirit (yōkai / kami) |
+| **First recorded** | 0720-01-01 |
+| **Primary range** | Tengu are exclusively associated with Japan and concentrated in the country's mountainous interior, especially central Honshu |
+| **Status** | active |
 
 ---
-
 ## Overview
 
-Tengu are one of the most iconic creatures in Japanese folklore, supernatural beings that inhabit mountains and forests. They exist in two primary forms: **Karasu-tengu** (crow-like with bird heads) and **Konoha-tengu** (humanoid with red faces and distinctive long noses).
-
-Originally depicted as malevolent Buddhist demons who led people astray, tengu evolved over centuries into complex figures serving as mountain guardians and martial arts masters. They are known for their pride and arrogance, supernatural powers including flight and shape-shifting, and their role in teaching legendary warriors.
-
-Tengu remain deeply embedded in Japanese culture through Shinto shrines, folklore, martial arts mythology, and modern media including anime, manga, and video games.
-
-> ⚠️ **CULTURAL SENSITIVITY**: Tengu are part of living Japanese religious and cultural traditions. Approach with respect for Shinto and Buddhist contexts.
+Tengu (天狗, literally 'heavenly dog') are legendary creatures of Japanese folklore, classified as both a kind of yōkai (supernatural beings) and as a kind of kami (Shinto deity). They inhabit deep forests and mountains, especially in central and northern Honshu. Two main types are distinguished: kotengu, lesser, more bird-like figures often called karasu-tengu ('crow tengu') or konoha-tengu ('leaf tengu'); and daitengu, the high-ranking, more humanoid 'great tengu' (also yamabushi-tengu, in mountain-ascetic dress) characterized by very long, prominent noses (hanatakatengu). Earlier Japanese sources, especially the late Heian and Kamakura-era Buddhist texts (Konjaku Monogatari, Genpei Jōsuiki), depict tengu as disruptive demons who possess people, abduct monks, and foretell war. From the 14th century onward — exemplified by the legend in which the Daitengu Sōjōbō of Mount Kurama trains Minamoto no Yoshitsune in swordsmanship — they are increasingly re-cast as protective mountain spirits and martial-arts masters. Major named daitengu include Sōjōbō of Mount Kurama, Tarōbō of Mount Atago, and Jirōbō of the Hira Mountains; the 18th-century 'Tengu Meigikō' by Hayashi Razan / Inoue Enryō tradition lists their hierarchy. Tengu are widely venerated at mountain shrines, appear in Noh and kabuki, and remain a strong presence in modern manga, anime, and video games.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 天狗 | Japanese (kanji) | literally 'heavenly dog' |
+| Karasu-tengu | Japanese | 'crow tengu' — bird-headed type |
+| Konoha-tengu | Japanese | 'leaf tengu' — humanoid long-nosed type |
+| Yamabushi-tengu | Japanese | 'mountain-ascetic tengu' — high-ranking humanoid form |
+| Daitengu | Japanese | 'great tengu' — leaders/chiefs |
+| Kotengu | Japanese | 'small tengu' — lesser, more bird-like beings |
 
-### Primary Name
-- **Tengu** (天狗) — Originally from Chinese "tiangou" (heavenly dog), but Japanese concept evolved distinctly to bird-like beings. First mentioned in Nihon Shoki (720 CE).
+## Etymology
 
-### Alternative Names
-
-| Name | Language | Meaning |
-|------|----------|---------|
-| Karasu-tengu | Japanese | Crow tengu - bird-headed variant |
-| Konoha-tengu | Japanese | Leaf tengu - humanoid with long nose |
-| Daitengu | Japanese | Great tengu - powerful variant |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Mountain Spirit
-└── Variant: Japanese
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Kitsune](/kitsune) | Similar | Japanese fox spirits, also shapeshifters |
-| [Oni](/oni) | Similar | Japanese demons/ogres |
-| [Jinn](/jinn) | Similar | Shapeshifting spirits from Islamic tradition |
+- **Origin**: Japanese 天 ('heaven, sky') + 狗 ('dog'), borrowed from Chinese tiāngǒu (天狗), originally a celestial dog associated with meteoric phenomena.
+- **Meaning**: Literally 'heavenly dog'; the Japanese figure diverged early from the Chinese original to become a bird-like / humanoid mountain being.
+- **First use**: Earliest recorded Japanese mention in the Nihon Shoki (720 CE).
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Tiāngǒu (天狗)](../tiangou/) — _counterpart_: Chinese celestial-dog source of the Japanese name
+- [Yamabushi](../yamabushi/) — _related_: Real-world Japanese mountain ascetics whose dress was adopted in tengu iconography
+- [Yōkai](../yokai/) — _superset_: Wider category of Japanese supernatural beings to which tengu belong
+- [Kami](../kami/) — _superset_: Shinto deities; daitengu are sometimes worshipped as kami
 
-### Physical Description
+---
+## Physical Description
 
-**Karasu-tengu** (Crow Tengu):
-- Crow-like appearance with bird head
-- Humanoid body with wings
-- Dark feathers and beak
+- **Coloration**: red face (daitengu), black or dark plumage (karasu-tengu)
+- **Morphology**: Variable. Lesser tengu are humanoid bird-like beings; greater tengu are tall humanoids with long noses, often with hawk-, kite-, or crow-like wings.
 
-**Konoha-tengu** (Humanoid Tengu):
-- Human-like form
-- Distinctive red face
-- Extremely long nose (most recognizable feature)
-- Often wears yamabushi (mountain ascetic) robes
-- Carries feather fan and staff
-
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Red face | Crimson facial coloration in humanoid forms | Always |
-| Long nose | Distinctive elongated nose | Common |
-| Wings | Large bird-like wings enabling flight | Common |
-| Traditional clothing | Yamabushi robes, feather fan, staff | Common |
+|---|---|---|
+| Long, prominent nose (daitengu) | The hallmark long red nose of the great tengu, developed in iconography from the 14th century onward | common |
+| Bird-like beak / wings (kotengu) | Lesser tengu retain crow- or kite-like beaks, wings, and feathers | common |
+| Yamabushi dress and tokin headdress | Most daitengu wear the costume of a mountain ascetic, including the small black box-shaped tokin | common |
+| Hauchiwa (feather fan) | Magical feather fan associated especially with daitengu | common |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Flight | Fly through the air, sometimes without visible wings | Documented |
-| Shape-shifting | Transform into human or animal forms | Documented |
-| Swordsmanship | Master martial artists, particularly in sword techniques | Documented |
-| Wind manipulation | Control wind and storms using fans | Documented |
-| Telepathy | Mental communication and mind-reading | Documented |
-| Abduction | Kidnap humans, especially children, to teach or punish | Documented |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Flight | Daitengu and karasu-tengu fly between mountain peaks | common | folklore |
+| Shapeshifting | Adopt human form, particularly that of wandering monks, to test or deceive humans | common | folklore |
+| Mastery of swordsmanship and martial arts | Daitengu reputedly train heroes — most famously Minamoto no Yoshitsune by Sōjōbō of Mount Kurama | common | folklore |
+| Causing whirlwinds and storms | Tengu use the hauchiwa to raise winds and storms | common | folklore |
+| Possession (kamikakushi) | Older Buddhist sources describe tengu abducting and possessing monks and children | occasional | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Day and night
-- **Disposition**: Neutral to protective (proud and arrogant)
-- **Social Structure**: Hierarchical
-- **Habitat Preference**: Mountains, deep forests, sacred trees, remote temples
-- **Cultural Role**: Mountain guardians, martial arts instructors, punishers of the prideful
+- **Activity**: variable
+- **Disposition**: variable
+- **Social structure**: variable
+- **Habitat**: mountain forests, specific sacred mountains (Kurama, Atago, Hira, Hiei), high passes and waterfalls
 
 ---
+## Distribution
 
-## Geographic Distribution
+Tengu are exclusively associated with Japan and concentrated in the country's mountainous interior, especially central Honshu.
 
-### Primary Range
+### Hotspots
 
-Throughout Japan, particularly associated with sacred mountains and forest regions.
-
-### Sacred Locations
-
-| Location | Significance |
-|----------|--------------|
-| **Mount Kurama** (Kyoto) | Home of Sōjōbō, the Great Tengu who taught Minamoto no Yoshitsune |
-| **Mount Takao** (Tokyo) | Active Shinto shrine dedicated to tengu worship |
-| **Mount Haguro** (Yamagata) | Sacred mountain with tengu associations |
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Mount Kurama (Kibune-Kurama, Kyoto) | Kyoto, Japan |  | Heian–present |
+| Mount Atago (Kyoto) | Kyoto, Japan |  | Heian–present |
+| Mount Takao (Tokyo) | Tokyo, Japan |  | Edo–present |
 
 ---
-
 ## Historical Timeline
 
-### Origins
-
-Derived from Chinese tiangou (heavenly dog) but developed distinctly in Japanese Buddhism and Shinto. Associated with yamabushi mountain ascetics and Buddhist concepts of spiritual pride.
-
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| 720 CE | First mention in Nihon Shoki | Earliest written reference to tengu in Japan |
-| 1159-1185 | Sōjōbō teaches Minamoto no Yoshitsune | Famous legend of tengu as martial arts master |
-| 12th-14th century | Tengu depicted in Buddhist scrolls | Visual representation in Tengu-zōshi emaki |
-| 14th century onward | Evolution from demon to protector | Shift in cultural perception |
-| Present | Modern cultural presence | Continues in festivals, shrines, martial arts mythology, anime/manga |
+|---|---|---|
+| 0720-01-01 | Nihon Shoki records the first mention of a 'tengu' in Japanese sources, identifying a meteoric or aerial phenomenon | Earliest written use of the term in Japan |
+| 1120-01-01 | Konjaku Monogatari-shū (late Heian) presents tengu as Buddhist demons who possess priests and abduct monks | Foundational 'demon-tengu' phase |
+| 1300-01-01 | Genpei Jōsuiki and other late-Kamakura/Nanboku-chō works describe a hierarchical tengu society with named daitengu | Codification of the daitengu tradition |
+| 1400-01-01 | Tengu of Mount Kurama (Sōjōbō) is firmly established in the Yoshitsune legend cycle as a martial mentor | Anchors the 'protective tengu' phase |
+| 1754-01-01 | Hayashi Razan / Inoue Enryō traditions and the 'Tengu Meigikō' rank major daitengu by mountain | Codifies the named-daitengu hierarchy still cited today |
 
-### Cultural Evolution
+## Evidence
 
-**Originally (8th-12th century)**: Malevolent Buddhist demons representing spiritual obstacles (pride, anger)
+### Documentary
 
-**Later (13th century onward)**: Protective mountain guardians integrated with Shinto worship
-
----
-
-## Famous Tengu
-
-### Sōjōbō (僧正坊)
-
-The Great Tengu of Mount Kurama, most famous in Japanese folklore. Legend says he taught the legendary warrior Minamoto no Yoshitsune the secrets of swordsmanship and martial arts when Yoshitsune was a child training at Kurama Temple.
-
-**Location**: Mount Kurama, Kyoto
-**Role**: King of tengu, martial arts master
-**Significance**: Symbol of martial discipline and supernatural instruction
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Nihon Shoki (720 CE) | 720 | Earliest extant Japanese text recording the term 'tengu', applied to a celestial / meteoric phenomenon. | verified |
+| Konjaku Monogatari-shū (late Heian) | c. 12th century | Buddhist tale collection portraying tengu as demons that abduct and possess monks. | verified |
+| Tengu Meigikō | 18th century | Edo-period text ranking the major named daitengu by mountain. | verified |
 
 ---
+## Theories & Explanations
 
-## Cultural Significance
+### Scientific
 
-### Religious Traditions
+**Composite cultural construct** _(Komatsu Kazuhiko, Inoue Enryō (19th c.))_
 
-**Buddhist Context**:
-- Originally demons representing pride and arrogance
-- Cautionary figures warning against spiritual obstacles
-- Associated with corrupted monks
+Modern Japanese folklorists (Komatsu Kazuhiko and others) treat tengu as a layered figure formed by the integration of Chinese tiāngǒu lore, Indigenous Japanese mountain-spirit traditions, and Buddhist demonology, refracted through Shugendō practice.
 
-**Shinto Context**:
-- Mountain kami (spirits/gods)
-- Guardian deities
-- Protectors of sacred forests
 
-### Martial Arts Mythology
+## Indigenous Perspectives
 
-Tengu are central to Japanese martial arts legends:
-- Teaching legendary warriors
-- Symbolizing ultimate martial mastery
-- Associated with kenjutsu (swordsmanship) and ninjutsu schools
-- Represent discipline, pride, and transcendence
+> ⚠️ **Engage with tengu material in religious and academic Japanese sources rather than treating them only as folkloric curiosities.**
 
-### Festivals & Worship
+**Cultures**: Japanese (Yamato)
 
-- **Tengu Matsuri** (Tengu festivals) held at various shrines
-- Tengu masks used in traditional theater and ceremonies
-- Active worship at Mount Takao and other sacred sites
+Tengu remain part of living Japanese religious culture, intersecting Shugendō, Shinto, and Buddhist practice.
 
----
+_Guidelines: When citing specific shrines and festivals, defer to the relevant temple/shrine documentation._
 
-## Modern Presence
+## Popular Culture
 
-### Popular Culture
+**Literature**: Numerous Noh plays featuring tengu (e.g., Kurama Tengu); Edo-period otogizōshi and kibyōshi featuring tengu; Modern reference: Komatsu Kazuhiko, 'Yōkai bunka nyūmon' (1994)
 
-**Anime & Manga**:
-- Naruto (various tengu-inspired characters)
-- InuYasha (tengu appearances)
-- Numerous other series featuring tengu
+**Film / TV**: Akira Kurosawa, 'Throne of Blood' (1957) — visual debt to tengu / yōkai imagery; Tengu episodes in countless Japanese horror anthology series
 
-**Video Games**:
-- Final Fantasy series
-- Nioh
-- Ōkami
-- Many others
+**Games**: Touhou Project (Aya Shameimaru, Momiji Inubashiri — tengu characters); Nioh (2017) and Nioh 2 (2020) — tengu enemies and lore; Onmyōji (NetEase, 2016)
 
-**Literature**:
-- Konjaku Monogatarishū (12th-century tale collection)
-- Modern novels and stories
+**Other**: Tengu masks (used in festivals, kagura, and martial-arts iconography)
 
 ---
+## Research
 
-## Research Guidelines
+### Researchers
 
-### Cultural Respect
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Inoue Enryō | Toyo University (philosophy) | Major late-19th-century Japanese systematization of yōkai including tengu | 1880s–1910s |
+| Komatsu Kazuhiko | International Research Center for Japanese Studies (Nichibunken) | Modern scholarly studies of yōkai including tengu | 1980s–present |
 
-> ⚠️ **IMPORTANT**: Tengu are NOT merely folklore characters—they are part of living Japanese religious and cultural traditions.
+### Organizations
 
-**Respect Guidelines**:
-- Recognize religious significance in shrine contexts
-- Do not trivialize or appropriate sacred imagery
-- Consult Japanese cultural experts for accurate representation
-- Understand the difference between folklore entertainment and sacred traditions
-- Show respect at tengu-associated shrines and temples
+- [International Research Center for Japanese Studies (Nichibunken)](https://www.nichibun.ac.jp/en/) — Yōkai and folklore scholarship
 
-### Academic Study
-
-Academic research focuses on:
-- Evolution from Chinese origins
-- Role in Buddhist literature and art
-- Integration with Shinto mountain worship
-- Cultural symbolism and meaning
-- Martial arts connections
+Continuing scholarly work in religious history, folklore, and popular-culture studies; tengu remain a major subject in Nichibunken yōkai research and in studies of Shugendō.
 
 ---
+## Sources
 
-## API Reference
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-Machine-readable data is available in [`api.json`](api.json).
 
-### Data Access
+## How to Report a Sighting
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const tengu = await wyrd.getPhenomenon('tengu');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/tengu/main/api.json
-```
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- Nihon Shoki (Chronicles of Japan), 720 CE
-- Konjaku Monogatarishū (12th century tale collection)
-- Tengu-zōshi emaki (medieval illustrated scrolls)
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
